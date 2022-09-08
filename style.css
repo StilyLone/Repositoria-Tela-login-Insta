@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F0FFF0;
+}
+#conteudo-principal{
+	position: relative;
+	top: 130px;
+
+	text-align: center;
+
+}
+.input-insta{
+	width: 320px;
+	height: 380px;
+	margin: auto;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .100);
+	border: 1px solid lightgray;
+	padding: 10px;
+	background-color: white;
+
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+}
+.input-insta p{
+	position: relative;
+	right: 10px;
+
+	width: 320px;
+	font-size: 19px;
+	margin-top: 25px;
+	background-color: white;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .100);
+	border: 1px solid lightgray;
+	padding: 20px;
+}
+.input-insta img{
+	margin: auto;
+	width: 200px;
+	margin-bottom: 30px;
+}
+.input-insta input{
+	border: 0.5 solid gray;
+
+	margin: auto;
+	width: 250px;
+	padding: 10px;
+}
+.input-insta button{
+	position: relative;
+	left:25px;
+
+	margin-top: 10px;
+	width: 250px;
+	padding: 8px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	background-color: blue;
+}
+.input-insta button:hover{
+	background-color: blueviolet;
+}
+.input-insta a{
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-top: 3px;
+}
+.input-insta a:hover{
+	text-decoration: underline;
+	color: blueviolet;
+}
+
+.entry-for-face h4{
+	margin-bottom: 10px;
+}
+.entry-for-face a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.entry-for-face a:hover{
+	text-decoration: underline;
+}
+.entry-for-face img{
+	position: relative;
+	top: 38px;
+
+	width: 26px;
+}
+#rodape{
+	display: flex;
+	justify-content: space-evenly;
+
+	position: relative;
+	top: 280px;
+
+	font-size: 12px;
+	text-align: center;
+	color: rgba(0, 0, 0, .400);
+}
+#rodape h3{
+	margin-right: 20px;
+}
+#rodape h3:hover{
+	color: rgba(0, 0, 0, .450);
+}
